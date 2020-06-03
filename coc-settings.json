@@ -1,0 +1,10 @@
+{
+  "c.preferences.jumpCommand": "tab drop",
+  "coc.preferences.colorSupport": true,
+  "git.enableGutters": false,
+  "diagnostic.warningSign": "--",
+  "diagnostic.virtualText": true,
+  "suggest.enablePreview": true,
+  "tsserver.log": "verbose",
+  "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+}
