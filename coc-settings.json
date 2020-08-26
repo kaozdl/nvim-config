@@ -6,5 +6,6 @@
   "diagnostic.virtualText": true,
   "suggest.enablePreview": true,
   "tsserver.log": "verbose",
+  "python.setLinter": "flake8",
   "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 }

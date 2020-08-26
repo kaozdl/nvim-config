@@ -12,9 +12,11 @@ Plug 'Yggdroot/indentLine' "indentation lines
 Plug 'tpope/vim-fugitive' "git support
 Plug 'mileszs/ack.vim' "ack inside vim
 Plug 'chrisbra/csv.vim' "handle csv files
+Plug 'vim-test/vim-test'
 
 " style
 Plug 'lu-ren/SerialExperimentsLain'
+Plug 'tomasr/molokai'
 Plug 'vim-airline/vim-airline-themes'
 
 " extra lang
@@ -29,7 +31,6 @@ Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-git', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
 Plug 'iamcco/coc-svg', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-html', {'do': 'yarn install --frozen-lockfile'}
@@ -79,6 +80,9 @@ set ttimeoutlen=10
 let g:airline_powerline_fonts=1
 let g:airline_theme='dark'
 let g:airline_exclude_preview = 1
+
+"Vim-Test
+let test#strategy =  'neovim'
 
 "Hacks
 au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
